@@ -6,13 +6,13 @@ body  {
 }
 
 .caption {
-  width: 80%;
+  width: 50%;
   margin: auto;
   overflow: hidden;
 }
 
 img {
-  width: 80%;
+  width: 100%;
 }
 
 button {
@@ -24,4 +24,8 @@ button {
 
 button:hover {
   background-color: cornflowerblue;
+}
+
+.caption:hover .caption__overlay {
+  transform: translateY(0);
 }
